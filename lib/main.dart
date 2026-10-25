@@ -141,10 +141,8 @@ class DashboardScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
-            Center(
-              child: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueAccent,
-              ).hasChild() ? Container() : ElevatedButton(
+                        Center(
+              child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.redAccent,
                   minimumSize: const Size(200, 50),
