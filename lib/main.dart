@@ -278,15 +278,17 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 ),
               ),
               const SizedBox(height: 15),
-              ElevatedButton.styleFrom().hasChild() ? Container() : ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.purpleAccent,
-                  minimumSize: const Size.fromHeight(50),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                ),
-                onPressed: _createNewUser,
-                child: const Text('إنشاء يوزر جديد وتحديد المدة', style: TextStyle(fontSize: 16, color: Colors.white)),
-              ),
+              ElevatedButton(
+  style: ElevatedButton.styleFrom(
+    backgroundColor: Colors.purpleAccent,
+    minimumSize: const Size.fromHeight(50),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+  ),
+  onPressed: _createNewUser,
+  child: const Text('إنشاء يوزر جديد وتحديد المدة', style:
+),
+ style: TextStyle(fontSize: 16, color: Colors.white)),
+
               const SizedBox(height: 20),
               const Text('قائمة اليوزرات النشطة حالياً:', style: TextStyle(fontWeight: FontWeight.bold)),
               const SizedBox(height: 10),
