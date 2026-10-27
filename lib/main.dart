@@ -1,4 +1,4 @@
-
+import 'admin_dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,7 +34,7 @@ class PoolHackApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const LoginPage(),
+      home: const AdminDashboard(),
     );
   }
 }
